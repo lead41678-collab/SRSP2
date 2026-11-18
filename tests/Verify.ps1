@@ -5,8 +5,9 @@ if ($LASTEXITCODE -ne 0) { throw 'Build failed' }
 $cases = Get-Content (Join-Path $PSScriptRoot 'cases.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $passed = 0
 foreach ($case in $cases) {
-    $name = "SRSP2 / task $($case.task)"
-    $dll = Join-Path $projectRoot 'bin/Debug/net10.0/SRSP2.dll'
+    $part = if ($case.task -le 10) { 'Часть 1' } else { 'Часть 2' }
+    $name = 'SRSP2_Task{0:00}' -f $case.task
+    $dll = Join-Path $projectRoot "$part/$name/bin/Debug/net10.0/$name.dll"
     $info = New-Object System.Diagnostics.ProcessStartInfo
     $info.FileName = 'dotnet'
     $info.Arguments = '"' + $dll + '"'
@@ -19,8 +20,7 @@ foreach ($case in $cases) {
     $process = New-Object System.Diagnostics.Process
     $process.StartInfo = $info
     [void]$process.Start()
-    $testInput = if ($null -ne $case.task) { "$($case.task)`n$($case.input)0`n" } else { $case.input }
-    $bytes = [System.Text.Encoding]::UTF8.GetBytes($testInput)
+    $bytes = [System.Text.Encoding]::UTF8.GetBytes($case.input)
     $process.StandardInput.BaseStream.Write($bytes, 0, $bytes.Length)
     $process.StandardInput.Close()
     $outTask = $process.StandardOutput.ReadToEndAsync()

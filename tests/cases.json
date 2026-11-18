@@ -1618,40 +1618,5 @@
     "input": "abc\n",
     "expected": "Ошибка",
     "absent": "Аттестация"
-  },
-  {
-    "input": "0\n",
-    "expected": "СРСП",
-    "absent": "Ошибка"
-  },
-  {
-    "input": "abc\n0\n",
-    "expected": "Введите целый номер",
-    "absent": ""
-  },
-  {
-    "input": "16\n0\n",
-    "expected": "Номер задания должен",
-    "absent": ""
-  },
-  {
-    "input": "-1\n0\n",
-    "expected": "Номер задания должен",
-    "absent": ""
-  },
-  {
-    "input": "",
-    "expected": "СРСП",
-    "absent": "Ошибка"
-  },
-  {
-    "input": "1\n5\n1\n-8\n0\n",
-    "expected": "-8 является отрицательным",
-    "absent": ""
-  },
-  {
-    "input": "12\n4\n1\n15\n0\n",
-    "expected": "15 является положительным",
-    "absent": ""
   }
 ]
