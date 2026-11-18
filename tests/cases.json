@@ -1,0 +1,1622 @@
+﻿[
+  {
+    "task": 1,
+    "input": "15\n",
+    "expected": "15 является положительным",
+    "absent": ""
+  },
+  {
+    "task": 1,
+    "input": "-8\n",
+    "expected": "-8 является отрицательным",
+    "absent": ""
+  },
+  {
+    "task": 1,
+    "input": "0\n",
+    "expected": "Вы ввели ноль",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "0\n",
+    "expected": "Неудовлетворительно",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "0\n",
+    "expected": "Аттестация не пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "49\n",
+    "expected": "Неудовлетворительно",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "49\n",
+    "expected": "Аттестация не пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "50\n",
+    "expected": "Удовлетворительно",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "50\n",
+    "expected": "Аттестация пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "74\n",
+    "expected": "Удовлетворительно",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "74\n",
+    "expected": "Аттестация пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "75\n",
+    "expected": "Хорошо",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "75\n",
+    "expected": "Аттестация пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "89\n",
+    "expected": "Хорошо",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "89\n",
+    "expected": "Аттестация пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "90\n",
+    "expected": "Отлично",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "90\n",
+    "expected": "Аттестация пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "100\n",
+    "expected": "Отлично",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "100\n",
+    "expected": "Аттестация пройдена",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "-1\n",
+    "expected": "Ошибка",
+    "absent": "Аттестация"
+  },
+  {
+    "task": 2,
+    "input": "101\n",
+    "expected": "Ошибка",
+    "absent": "Аттестация"
+  },
+  {
+    "task": 3,
+    "input": "90\n75\n",
+    "expected": "Первый студент",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "60\n85\n",
+    "expected": "Второй студент",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "75\n75\n",
+    "expected": "Результаты равны",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "90\n75\n",
+    "expected": "Разница между результатами: 15",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "60\n85\n",
+    "expected": "Разница между результатами: 25",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "-1\n50\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "101\n50\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "50\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "50\n101\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "0\n",
+    "expected": "ночь",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "5\n",
+    "expected": "ночь",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "6\n",
+    "expected": "утро",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "11\n",
+    "expected": "утро",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "12\n",
+    "expected": "день",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "17\n",
+    "expected": "день",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "18\n",
+    "expected": "вечер",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "23\n",
+    "expected": "вечер",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "8\n",
+    "expected": "Учебное время",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "16\n",
+    "expected": "Учебное время",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "7\n",
+    "expected": "Сейчас",
+    "absent": "Учебное время"
+  },
+  {
+    "task": 4,
+    "input": "17\n",
+    "expected": "Сейчас",
+    "absent": "Учебное время"
+  },
+  {
+    "task": 4,
+    "input": "-1\n",
+    "expected": "Ошибка",
+    "absent": "Учебное время"
+  },
+  {
+    "task": 4,
+    "input": "24\n",
+    "expected": "Ошибка",
+    "absent": "Учебное время"
+  },
+  {
+    "task": 5,
+    "input": "2024\n",
+    "expected": "366",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "2025\n",
+    "expected": "365",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "2000\n",
+    "expected": "366",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "1900\n",
+    "expected": "365",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "0\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "1\n",
+    "expected": "Понедельник",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "1\n",
+    "expected": "Учебный день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "2\n",
+    "expected": "Вторник",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "2\n",
+    "expected": "Учебный день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "3\n",
+    "expected": "Среда",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "3\n",
+    "expected": "Учебный день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "4\n",
+    "expected": "Четверг",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "4\n",
+    "expected": "Учебный день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "5\n",
+    "expected": "Пятница",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "5\n",
+    "expected": "Учебный день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "6\n",
+    "expected": "Суббота",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "6\n",
+    "expected": "Выходной день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "7\n",
+    "expected": "Воскресенье",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "7\n",
+    "expected": "Выходной день",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "0\n",
+    "expected": "Ошибка",
+    "absent": "день"
+  },
+  {
+    "task": 6,
+    "input": "8\n",
+    "expected": "Ошибка",
+    "absent": "день"
+  },
+  {
+    "task": 7,
+    "input": "12\n",
+    "expected": "Зима",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "1\n",
+    "expected": "Зима",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "2\n",
+    "expected": "Зима",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "12\n",
+    "expected": "Время снега и морозов",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "3\n",
+    "expected": "Весна",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "4\n",
+    "expected": "Весна",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "5\n",
+    "expected": "Весна",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "3\n",
+    "expected": "Природа просыпается",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "6\n",
+    "expected": "Лето",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "7\n",
+    "expected": "Лето",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "8\n",
+    "expected": "Лето",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "6\n",
+    "expected": "Время солнечных дней",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "9\n",
+    "expected": "Осень",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "10\n",
+    "expected": "Осень",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "11\n",
+    "expected": "Осень",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "9\n",
+    "expected": "Начинается новый учебный год",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "0\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "13\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": " СОЗДАТЬ \n",
+    "expected": "успешно создан",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "ОТКРЫТЬ\n",
+    "expected": "Файл открыт",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "удалить\n",
+    "expected": "Файл удалён",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "выход\n",
+    "expected": "Завершение работы",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "переименовать\n",
+    "expected": "Файл переименован",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "копировать\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n0\n",
+    "expected": "повторить",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n49\n",
+    "expected": "повторить",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n50\n",
+    "expected": "Базовый",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n84\n",
+    "expected": "Базовый",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n85\n",
+    "expected": "Высокий",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n100\n",
+    "expected": "Высокий",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n65\n",
+    "expected": "Программирование",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "2\n65\n",
+    "expected": "Компьютерные сети",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "3\n65\n",
+    "expected": "Компьютерная графика",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "4\n65\n",
+    "expected": "Информационная безопасность",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "5\n65\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\n101\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "1\n1\n",
+    "expected": "питание и видеокабель",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "1\n2\n",
+    "expected": "Состояние: Исправно",
+    "absent": "Рекомендация:"
+  },
+  {
+    "task": 10,
+    "input": "2\n1\n",
+    "expected": "сетевой кабель или Wi-Fi",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "2\n2\n",
+    "expected": "Состояние: Исправно",
+    "absent": "Рекомендация:"
+  },
+  {
+    "task": 10,
+    "input": "3\n1\n",
+    "expected": "подключение клавиатуры",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "3\n2\n",
+    "expected": "Состояние: Исправно",
+    "absent": "Рекомендация:"
+  },
+  {
+    "task": 10,
+    "input": "4\n1\n",
+    "expected": "подключение принтера, бумагу и состояние печати",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "4\n2\n",
+    "expected": "Состояние: Исправно",
+    "absent": "Рекомендация:"
+  },
+  {
+    "task": 10,
+    "input": "5\n1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "1\n0\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "1\n3\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "60\n4\n",
+    "expected": "Допущен",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "59\n4\n",
+    "expected": "Улучшить результат",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "60\n3\n",
+    "expected": "Завершить практические",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "59\n3\n",
+    "expected": "Улучшить тест и завершить",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "100\n5\n",
+    "expected": "Допущен",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "0\n0\n",
+    "expected": "Улучшить тест и завершить",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "-1\n4\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "101\n4\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "60\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "60\n6\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "1\n",
+    "expected": "Режим обучения активирован",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "2\n",
+    "expected": "Режим тестирования активирован",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "3\n",
+    "expected": "Режим перерыва активирован",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "4\n",
+    "expected": "Завершение работы программы",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "8\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "15\n15\n",
+    "expected": "Все компьютеры заняты",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "15\n14\n",
+    "expected": "Свободных компьютеров мало",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "15\n12\n",
+    "expected": "Свободных компьютеров мало",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "15\n11\n",
+    "expected": "достаточно свободных",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "10\n12\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "0\n0\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "10\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "-1\n0\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "1\nА\n",
+    "expected": "Неправильный ответ.",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "1\nБ\n",
+    "expected": "Правильный ответ!",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "1\nВ\n",
+    "expected": "Неправильный ответ.",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "1\n б \n",
+    "expected": "Правильный ответ!",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "1\nГ\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "2\nА\n",
+    "expected": "Неправильный ответ.",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "2\nБ\n",
+    "expected": "Неправильный ответ.",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "2\nВ\n",
+    "expected": "Правильный ответ!",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "2\n в \n",
+    "expected": "Правильный ответ!",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "2\nГ\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "3\nА\n",
+    "expected": "Правильный ответ!",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "3\nБ\n",
+    "expected": "Неправильный ответ.",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "3\nВ\n",
+    "expected": "Неправильный ответ.",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "3\n а \n",
+    "expected": "Правильный ответ!",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "3\nГ\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "4\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n0\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n1\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n2\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n3\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n4\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n5\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n6\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n7\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n8\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n9\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n10\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n11\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n12\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n13\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n14\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n15\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n16\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n17\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n18\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n19\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n20\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n21\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n22\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n23\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\n24\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n0\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n1\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n2\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n3\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n4\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n5\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n6\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n7\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n8\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n9\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n10\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n11\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n12\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n13\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n14\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n15\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n16\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n17\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n18\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n19\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n20\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n21\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n22\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n23\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "2\n24\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n0\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n1\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n2\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n3\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n4\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n5\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n6\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n7\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n8\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n9\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n10\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n11\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n12\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n13\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n14\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n15\n",
+    "expected": "ДОСТУП РАЗРЕШЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n16\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n17\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n18\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n19\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n20\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n21\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n22\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n23\n",
+    "expected": "ДОСТУП ЗАПРЕЩЁН",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n-1\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "3\n24\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "4\n12\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 1,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 1,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 4,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 5,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 6,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 7,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 8,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 12,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 14,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 3,
+    "input": "1\nabc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 9,
+    "input": "1\nabc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 10,
+    "input": "1\nabc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 11,
+    "input": "1\nabc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 13,
+    "input": "1\nabc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 15,
+    "input": "1\nabc\n",
+    "expected": "Ошибка",
+    "absent": ""
+  },
+  {
+    "task": 2,
+    "input": "abc\n",
+    "expected": "Ошибка",
+    "absent": "Аттестация"
+  }
+]
